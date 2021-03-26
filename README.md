@@ -16,3 +16,6 @@ https://musing-liskov-9e4cb7.netlify.app/
     * Galaxy Note 3(360 X 640), 100%, Online
     * Moto G4(360 X 640), 100%, Online
     * Galaxy S5(360 X 640), 100%, Online
+ 
+### Attention:
+in the team detail page i used each team image from API. Sometime due to network problem it take few second to load or a minute if face any problem please use browser reload or "Back to Home" buttton from the page to go back home page and agin try to use "Explore" button. and it will work. Thank you for the support...
