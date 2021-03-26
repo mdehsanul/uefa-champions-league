@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./Home.css";
-
-import { Col, Container, Row } from "react-bootstrap";
 import FootballClub from "../FootballClub/FootballClub";
 
 const Home = () => {
