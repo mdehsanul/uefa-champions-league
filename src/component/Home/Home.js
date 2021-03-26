@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Home.css";
+
 import { Col, Container, Row } from "react-bootstrap";
 import FootballClub from "../FootballClub/FootballClub";
 
@@ -14,11 +15,7 @@ const Home = () => {
   }, []);
   return (
     <div className="home">
-      <Container fluid>
-        <Row className="banner">
-          <Col className="header">UEFA Champions League</Col>
-        </Row>
-      </Container>
+      <h1 className="header">UEFA Champions League</h1>
       {clubs.map((club) => (
         <FootballClub club={club} key={club.idTeam}></FootballClub>
       ))}

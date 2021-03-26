@@ -8,7 +8,7 @@
   text-align: center;
 }
 .cardImage {
-  background-color: #023264;
+  background-color: #45465c;
 }
 .teamCard {
   width: 300px;
@@ -17,11 +17,11 @@
   .conatinerRow {
     padding: 0px 18px;
   }
+  .conatinerColumn {
+    padding-bottom: 20px;
+  }
   .teamCard {
     max-width: 100%;
     overflow-x: hidden;
-  }
-  .conatinerColumn {
-    padding-bottom: 20px;
   }
 }

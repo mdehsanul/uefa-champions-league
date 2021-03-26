@@ -1,26 +1,22 @@
-.banner {
-  background-image: url("../../bannerImage/champions-league2.png");
+.home {
+  overflow-x: hidden;
+  background-image: url("../../bannerImage/background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  height: 415px; /*optional */
 }
 .header {
   text-align: center;
   font-size: 50px;
-  color: white;
-  padding: 200px;
+  color: #45465c;
+  padding-top: 60px;
 }
 @media screen and (max-width: 360px) {
-  .banner {
-    width: 420px;
+  .home {
+    width: 360px;
   }
   .header {
-    text-align: center;
-    font-size: 40px;
-    color: white;
-    margin-right: 60px;
-    padding-top: 150px;
+    font-size: 35px;
   }
 }

@@ -13,25 +13,27 @@ const FootballClub = (props) => {
     // console.log(idTeam);
   };
   return (
-    <Container>
-      <Row className="conatinerRow">
-        <Col className="conatinerColumn">
-          <Card className="teamCard">
-            <Card.Img src={strTeamBadge} className="cardImage" />
-            <Card.Body>
-              <Card.Title>{strTeam}</Card.Title>
-              <Card.Text>Sports type: {strSport}</Card.Text>
-              <Button
-                variant="success"
-                onClick={() => handleClubDetail(idTeam)}
-              >
-                Explore <FontAwesomeIcon icon={faArrowRight} />
-              </Button>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
-    </Container>
+    <div>
+      <Container>
+        <Row className="conatinerRow">
+          <Col className="conatinerColumn">
+            <Card className="teamCard">
+              <Card.Img src={strTeamBadge} className="cardImage" />
+              <Card.Body>
+                <Card.Title>{strTeam}</Card.Title>
+                <Card.Text>Sports type: {strSport}</Card.Text>
+                <Button
+                  variant="success"
+                  onClick={() => handleClubDetail(idTeam)}
+                >
+                  Explore <FontAwesomeIcon icon={faArrowRight} />
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 };
 
