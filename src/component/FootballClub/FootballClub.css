@@ -1,0 +1,27 @@
+.conatinerRow {
+  float: left;
+  display: flex;
+  padding-left: 60px;
+}
+.conatinerColumn {
+  padding-top: 50px;
+  text-align: center;
+}
+.cardImage {
+  background-color: #023264;
+}
+.teamCard {
+  width: 300px;
+}
+@media screen and (max-width: 360px) {
+  .conatinerRow {
+    padding: 0px 18px;
+  }
+  .teamCard {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .conatinerColumn {
+    padding-bottom: 20px;
+  }
+}

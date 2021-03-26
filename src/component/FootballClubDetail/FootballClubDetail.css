@@ -1,0 +1,86 @@
+.clubDetailbanner {
+  background-image: url("../../bannerImage/champions-league2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 415px;
+}
+.teamBannerColumn {
+  text-align: center;
+}
+.teamBadge {
+  padding: 80px 0px;
+  width: 250px;
+}
+.teamDetailBackground {
+  background-color: #0061bf;
+}
+.teamDetailRow {
+  padding: 20px;
+}
+.teamDetailColumn {
+  background-color: #050e6d;
+  border-radius: 12px;
+  padding: 15px;
+}
+.teamDetail {
+  font-family: Inter, sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.teamName {
+  color: white;
+}
+.teamInfo {
+  line-height: 1px;
+  color: white;
+}
+.icon {
+  margin-right: 8px;
+  width: 20px;
+}
+.teamImage {
+  width: 400px;
+  height: 220px;
+  border-radius: 10px;
+}
+.aboutTeam {
+  padding: 20px 0 40px 0;
+  color: white;
+}
+.backToHome {
+  float: right;
+}
+.social {
+  text-align: center;
+}
+.socialIcon {
+  width: 65px;
+  height: 65px;
+}
+@media screen and (max-width: 360px) {
+  .teamBannerColumn {
+    padding: 0px 30px;
+  }
+  .teamBadge {
+    padding: 60px 40px 60px 40px;
+    width: 330px;
+  }
+  .teamDetail {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+  }
+  .teamImage {
+    width: 290px;
+    height: 195px;
+    border-radius: 10px;
+  }
+  .backToHome {
+    margin: 30px 80px;
+  }
+}
