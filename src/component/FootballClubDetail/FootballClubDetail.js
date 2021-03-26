@@ -44,30 +44,31 @@ const FootballClubDetail = () => {
                 <div>
                   <h2 className="teamName">{teamDetail.strTeam}</h2>
                   <p className="teamInfo">
-                    <img src={found} className="icon" /> Founded:{" "}
+                    <img src={found} className="icon" alt="" /> Founded:{" "}
                     {teamDetail.intFormedYear}
                   </p>
                   <p className="teamInfo">
-                    <img src={country} className="icon" /> Country:{" "}
+                    <img src={country} className="icon" alt="" /> Country:{" "}
                     {teamDetail.strCountry}
                   </p>
                   <p className="teamInfo">
-                    <img src={football} className="icon" /> Sport Type:{" "}
+                    <img src={football} className="icon" alt="" /> Sport Type:{" "}
                     {teamDetail.strSport}
                   </p>
                   <p className="teamInfo">
-                    <img src={genderSign} className="icon" /> Gender:{" "}
+                    <img src={genderSign} className="icon" alt="" /> Gender:{" "}
                     {teamDetail.strGender}
                   </p>
                 </div>
                 <div>
                   {/* Conditional Rendering */}
                   {teamDetail.strGender === "Female" ? (
-                    <img src={femaleImage} className="teamImage" />
+                    <img src={femaleImage} className="teamImage" alt="" />
                   ) : (
                     <img
                       src={teamDetail.strTeamFanart3}
                       className="teamImage"
+                      alt=""
                     />
                   )}
                 </div>
