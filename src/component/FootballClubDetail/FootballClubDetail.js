@@ -88,13 +88,25 @@ const FootballClubDetail = () => {
             </Col>
             <Col>
               <div className="social">
-                <a href={`https://${teamDetail.strTwitter}`} target="_blank">
+                <a
+                  href={`https://${teamDetail.strTwitter}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={twitter} className="socialIcon" alt="" />
                 </a>
-                <a href={`https://${teamDetail.strFacebook}`} target="_blank">
+                <a
+                  href={`https://${teamDetail.strFacebook}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={facebook} className="socialIcon" alt="" />
                 </a>
-                <a href={`https://${teamDetail.strYoutube}`} target="_blank">
+                <a
+                  href={`https://${teamDetail.strYoutube}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={youtube} className="socialIcon" alt="" />
                 </a>
               </div>
